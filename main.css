@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+#header {
+    background-color: #FFCD5A;
+}
+
+#main {
+    background-color: #FFECC1;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+.labels {
+    display: block;
+    width: 150px;
+    margin-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+label {
+    display: none;
+}
+
+input {
+    width: 150%;
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+}
+
+#forUser {}
+
+#forWeb {}
+
+#forEmail {}
+
+#forPassword {}
+
+button {
+    display: block;
+    width: 100px;
+    margin-left: 30%;
+    color: white;
+    background-color: #7F7660;
+    font-family: 'Lora', sans-serif;
+}
+
+@media all and (min-width:850px) and (max-width:1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {}
+    #header {
+        background-color: #FFCD5A;
+    }
+    #main {
+        background-color: #FFECC1;
+        padding-right: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .labels {}
+    label {
+        display: block;
+    }
+    input {}
+    #forUser {
+        float: right;
+        padding-right: 20px;
+    }
+    #forWeb {
+        float: right;
+    }
+    #forEmail {
+        float: right;
+        padding-right: 20px;
+    }
+    #forPassword {
+        float: right;
+    }
+    button {
+        background-color: #7F7660;
+        display: block;
+        width: 100px;
+        margin-left: 35%;
+    }
+}
+
+@media all and (min-width:1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {}
+    #header {
+        background-color: red;
+    }
+    #main {
+        background-color: #FFECC1;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .labels {
+        display: inline-block;
+    }
+    label {}
+    input {}
+    #forWeb {}
+    #forEmail {}
+    #forPassword {}
+    button {
+        background-color: #7F7660;
+        display: block;
+        width: 100px;
+        margin-left: 35%;
+    }
+}
+
+

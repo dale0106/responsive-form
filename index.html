@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Responsive Form </title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <h1> This is a form </h1>
+        <h2> Fill it out</h2>
+    </div>
+
+    <div id="main">
+        <div class="labels" id="forUser"> 
+            <label  class="test" for="username">Username:</label>
+            <input  class="test" type="text" placeholder="Username">
+        </div>
+
+        <div class="labels" id="forWeb">
+            <label for="website">Website:</label>
+            <input type="URL" placeholder=" Web URL">
+        </div>
+
+        <div class="labels" id="forEmail">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="mail" maxlength="60" placeholder="123@yahoo.com" required>
+        </div>
+
+        <div class="labels" id="forPassword">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" required>
+
+        </div>
+
+
+        <button type="send">SEND</button>
+    </div>
+
+</body>
+
+
+</html>
